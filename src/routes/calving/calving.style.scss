@@ -1,0 +1,12 @@
+.calving-container {
+  padding-left: 235px;
+  width: 100%;
+  .calving-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    span {
+      display: flex;
+      flex: 1;
+    }
+  }
+}

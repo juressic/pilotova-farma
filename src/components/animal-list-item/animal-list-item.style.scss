@@ -1,0 +1,27 @@
+.animal-list-item {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+
+  &:hover {
+    background-color: rgb(155, 214, 145);
+  }
+
+  .animal-active-indicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(40, 173, 40);
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+
+  .animal-unactive-indicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(202, 33, 33);
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,21 @@
+.home-filter-panel {
+  display: flex;
+  background-color: green;
+  input[type='radio'] {
+    display: none;
+    &:hover + label {
+      background-color: rgb(222, 204, 154);
+      cursor: pointer;
+    }
+    &:checked + label {
+      background-color: rgb(155, 214, 145);
+      cursor: pointer;
+    }
+  }
+
+  label {
+    display: flex;
+    height: auto;
+    padding: 10px;
+  }
+}

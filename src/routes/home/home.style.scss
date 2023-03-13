@@ -1,0 +1,14 @@
+.home-container {
+  background-color: rgb(227, 227, 227);
+  flex: 5;
+  margin-left: 235px;
+}
+
+.search-animals-input {
+  width: auto;
+}
+
+.animal-list {
+  display: flex;
+  flex-direction: column;
+}

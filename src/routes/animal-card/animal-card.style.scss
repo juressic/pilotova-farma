@@ -1,0 +1,27 @@
+.animal-card-container {
+  display: grid;
+  width: 100%;
+  padding: 100px;
+  padding-left: 235px;
+  grid-template-columns: repeat(2, fr);
+  grid-gap: 10px;
+  width: 100%;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+
+  .animal-card-row {
+    display: flex;
+    min-width: 400px;
+    .col1 {
+      //background-color: red;
+      font-weight: bold;
+      flex: 1;
+    }
+
+    .col2 {
+      //background-color: rgb(111, 129, 232);
+      flex: 1;
+    }
+  }
+}
